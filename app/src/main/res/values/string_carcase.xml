@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="auto_carcase">
+        <item>Седан"</item>
+        <item>Внедорожник / Кроссовер</item>
+        <item>Минивэн</item>
+        <item>Хэтчбек</item>
+        <item>Универсал</item>
+        <item>Купе</item>
+        <item>Легковой фургон (до 1,5 т)</item>
+        <item>Кабриолет</item>
+        <item>Пикап</item>
+        <item>Лимузин</item>
+
+    </string-array>
+
+</resources>

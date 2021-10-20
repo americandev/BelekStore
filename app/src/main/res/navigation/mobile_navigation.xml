@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.hggg.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_auto"
+        android:name="com.example.hggg.ui.gallery.GalleryFragment"
+        android:label="@string/menu_auto"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_accessories"
+        android:name="com.example.hggg.Appliances.TelFragment"
+        android:label="@string/menu_tel"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_sportgoods"
+        android:name="com.example.hggg.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_sportgoods"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_electronics"
+        android:name="com.example.hggg.Appliances.laptopsFragment"
+        android:label="@string/menu_Electronics"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_trucks"
+        android:name="com.example.hggg.realestate.TrucksFragment"
+        android:label="@string/menu_truck"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_appliances"
+        android:name="com.example.hggg.Appliances.AppliancesFragment"
+        android:label="@string/menu_Appliances"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_plants"
+        android:name="com.example.hggg.plants.PlantsFragment"
+        android:label="@string/menu_plants"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.hggg.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.hggg.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.example.hggg.image.ImageFragment"
+        android:label="ImageFragment" />
+</navigation>

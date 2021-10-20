@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Интернет магазин</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Интернет Магазин</string>
+    <string name="nav_header_subtitle">Выбери товар по душе</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_language">Язык</string>
+
+
+    <string name="menu_home">Недвижимость</string>
+    <string name="menu_auto">Авто</string>
+    <string name="menu_tel">Телефоны</string>
+    <string name="menu_Electronics">Ноутбуки</string>
+    <string name="menu_Appliances">Бытовая техника</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_share">Поделится</string>
+    <string name="menu_sportgoods">Спорт товары</string>
+    <string name="menu_plants">Растения</string>
+    <string name="menu_truck">Грузовики и спецтехника</string>
+    <string name="click">click</string>
+
+
+</resources>
